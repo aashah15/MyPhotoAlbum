@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "997911187722",
+    "firebase_url": "https://myphotoalbum-2a176.firebaseio.com",
+    "project_id": "myphotoalbum-2a176",
+    "storage_bucket": "myphotoalbum-2a176.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997911187722:android:d4050bd27c60afc1",
+        "android_client_info": {
+          "package_name": "com.beans.coder.firebaseloginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997911187722-uc3bc7slv87mfeb5dijg7320inrebmse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBKz2UWQrQqaPnjQu8ueUsk1dXnlGW6tY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997911187722:android:6ba2aa329dd74e66",
+        "android_client_info": {
+          "package_name": "com.beans.coder.myphotoalbum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997911187722-uc3bc7slv87mfeb5dijg7320inrebmse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBKz2UWQrQqaPnjQu8ueUsk1dXnlGW6tY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

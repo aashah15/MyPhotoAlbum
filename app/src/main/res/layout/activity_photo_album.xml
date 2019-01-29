@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhotoAlbumActivity">
+
+    <EditText
+        android:id="@+id/edit_text_file_name"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_above="@+id/edit_text_file_event"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter Name"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/edit_text_file_date"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@id/edit_text_file_name"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter Date"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_file_place"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/edit_text_file_name"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter Place"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_file_event"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_file_date"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@id/edit_text_file_place"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter Event"
+        android:padding="10dp"/>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/progress_bar"
+        android:layout_below="@+id/edit_text_file_place"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_upload"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="1dp" />
+
+    <Button
+        android:id="@+id/btn_choose_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/button_background"
+        android:text="Choose"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/button_background"
+        android:layout_toEndOf="@id/btn_choose_image"
+        android:text="Upload"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/bt_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/button_background"
+        android:layout_toEndOf="@id/btn_upload"
+        android:text="Show All"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/button_background"
+        android:layout_toEndOf="@+id/bt_update"
+        android:text="Show"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

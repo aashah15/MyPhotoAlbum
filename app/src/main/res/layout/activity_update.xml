@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateActivity">
+
+    <EditText
+        android:id="@+id/new_name"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="3dp"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/new_date"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/new_name"
+        android:hint="Enter Date"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/new_place"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/new_name"
+        android:layout_marginTop="5dp"
+        android:hint="Enter Place"
+        android:background="@drawable/edittext_background"
+        android:layout_marginStart="3dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/new_event"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_date"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/new_place"
+        android:hint="Enter Event"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp"/>
+
+    <ImageView
+        android:id="@+id/update_image_view"
+        android:layout_width="368dp"
+        android:layout_height="310dp"
+        android:layout_below="@+id/new_place"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="3dp"/>
+
+    <Button
+        android:id="@+id/btn_next_ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Next Ten"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button_background"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btn_prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@id/btn_next_ten"
+        android:text="Prev"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@id/btn_prev"
+        android:text="Next"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/button_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@+id/btn_next"
+        android:text="Update"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>
